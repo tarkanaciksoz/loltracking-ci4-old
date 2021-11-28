@@ -41,15 +41,15 @@
             $('#closeAlertModal').on('click', function () {
                 closeAlertModal();
             });
-            function alertModal(textHtml) {
-                $('#modalContent','#alertModal').html(textHtml);
-                $('#alertModal').modal('show');
-            }
-            function closeAlertModal() {
-                $('#modalContent','#alertModal').html("");
-                $('#alertModal').modal("hide");
-            }
         });
+        function alertModal(textHtml) {
+            $('#modalContent','#alertModal').html(textHtml);
+            $('#alertModal').modal('show');
+        }
+        function closeAlertModal() {
+            $('#modalContent','#alertModal').html("");
+            $('#alertModal').modal("hide");
+        }
     </script>
     </body>
 </html>
