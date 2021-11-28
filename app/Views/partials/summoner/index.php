@@ -60,7 +60,7 @@
         });
 
         $('#submitButton').on('click', function(){
-            var allowedServers = <?php echo json_encode($allowedServers); ?>;
+            var allowedServers = <?php if(isset($allowedServers)) { echo json_encode($allowedServers); } else{ echo json_encode(array());} ?>;
             var server = ($('#server').text()).toLowerCase();
             var summonerName = document.getElementById("summonerName").value;
 
