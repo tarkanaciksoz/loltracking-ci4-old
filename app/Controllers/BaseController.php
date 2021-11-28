@@ -62,12 +62,13 @@ class BaseController extends Controller
      * @return string
      */
     public function render($controller, $function) {
+        $view = \Config\Services::renderer();
 
         $controller = strtolower($controller);
         $function = strtolower($function);
-        $this->view->setVar('content', sprintf("/partials/%s/%s", $controller, $function));
-        $this->view->setVar('navbar', sprintf("/master-pages/%s/navbar", $controller));
-        $this->view->setVar('distDir', sprintf("%s/dist/", base_url()));
+        $view->setVar('content', sprintf("/partials/%s/%s", $controller, $function));
+        $view->setVar('navbar', sprintf("/master-pages/%s/navbar", $controller));
+        $view->setVar('distDir', sprintf("%s/dist/", base_url()));
 
         return view(sprintf("/master-pages/%s/layout", $controller));
     }

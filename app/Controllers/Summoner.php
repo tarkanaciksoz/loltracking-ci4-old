@@ -32,9 +32,9 @@ class Summoner extends BaseController
 
     public function __construct() {
         try {
-            $this->curly = new Curly();
-            $this->dbModel = new DbModel();
-            $this->setToken();
+            //$this->curly = new Curly();
+            //$this->dbModel = new DbModel();
+            //$this->setToken();
         }catch (\Exception $e) {
             echo $e->getMessage();
             exit;
@@ -47,7 +47,7 @@ class Summoner extends BaseController
      */
     public function index()
     {
-        $this->view->setVar('allowedServers', $this->dbModel->getServerList());
+        //$this->view->setVar('allowedServers', $this->dbModel->getServerList());
         return parent::render(self::className,__FUNCTION__);
     }
 
