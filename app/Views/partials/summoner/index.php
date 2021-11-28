@@ -14,8 +14,10 @@
                         <button id="server" type="button" class="btn btn-outline-light dropdown-toggle dropdown-toggle-split sv-btn-min-width" data-bs-toggle="dropdown" aria-expanded="false">
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end" id="serverList">
-                            <?php foreach($allowedServers as $server) { ?>
-                                <li><a class="dropdown-item" href="#"><?= strtoupper($server); ?></a></li>
+                            <?php if(isset($allowedServers)) {
+                                foreach($allowedServers as $server) { ?>
+                                    <li><a class="dropdown-item" href="#"><?= strtoupper($server); ?></a></li>
+                                <?php } ?>
                             <?php } ?>
                         </ul>
                     </div>
