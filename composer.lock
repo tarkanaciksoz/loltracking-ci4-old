@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f0178b4c1dfefe57ebce6a8deccfd68",
+    "content-hash": "9c5a938cae2e1f90d1d64ba6717138f7",
     "packages": [
         {
             "name": "codeigniter4/codeigniter4",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/CodeIgniter4.git",
-                "reference": "2413c8c765dea02e6ea2f8ebd4c150b911fd82b5"
+                "reference": "775f50cc98b32044ec9f6ab1cde5502d87783430"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/CodeIgniter4/zipball/2413c8c765dea02e6ea2f8ebd4c150b911fd82b5",
-                "reference": "2413c8c765dea02e6ea2f8ebd4c150b911fd82b5",
+                "url": "https://api.github.com/repos/codeigniter4/CodeIgniter4/zipball/775f50cc98b32044ec9f6ab1cde5502d87783430",
+                "reference": "775f50cc98b32044ec9f6ab1cde5502d87783430",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,7 @@
                 "phpstan/phpstan": "^1.0",
                 "phpunit/phpunit": "^9.1",
                 "predis/predis": "^1.1",
-                "rector/rector": "0.12.4"
+                "rector/rector": "0.12.5"
             },
             "suggest": {
                 "ext-fileinfo": "Improves mime type detection for files"
@@ -97,7 +97,7 @@
                 "slack": "https://codeigniterchat.slack.com",
                 "issues": "https://github.com/codeigniter4/CodeIgniter4/issues"
             },
-            "time": "2021-11-24T12:55:20+00:00"
+            "time": "2021-11-29T00:39:16+00:00"
         },
         {
             "name": "kint-php/kint",
@@ -2626,7 +2626,9 @@
     "prefer-lowest": false,
     "platform": {
         "php": "^7.3 || ^8.0",
-        "ext-curl": "*"
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mysqli": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"

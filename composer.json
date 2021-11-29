@@ -8,7 +8,8 @@
         "php": "^7.3 || ^8.0",
         "codeigniter4/codeigniter4": "dev-develop",
         "ext-curl": "*",
-        "ext-json": "*"
+        "ext-json": "*",
+        "ext-mysqli": "*"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9",
