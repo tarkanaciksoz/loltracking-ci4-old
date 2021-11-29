@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Libraries\Curly;
+use App\Models\DbModel;
 use CodeIgniter\Controller;
 use CodeIgniter\HTTP\CLIRequest;
 use CodeIgniter\HTTP\IncomingRequest;
@@ -39,11 +41,6 @@ class BaseController extends Controller
     protected $helpers = [];
 
     /**
-     * @var array
-     */
-    public $data;
-
-    /**
      * Constructor.
      */
     public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
@@ -61,14 +58,13 @@ class BaseController extends Controller
      * @param $function
      * @return string
      */
-    public function render($controller, $function) {
-        $view = \Config\Services::renderer();
+    protected function render($controller, $function) {
 
         $controller = strtolower($controller);
         $function = strtolower($function);
-        $view->setVar('content', sprintf("/partials/%s/%s", $controller, $function));
-        $view->setVar('navbar', sprintf("/master-pages/%s/navbar", $controller));
-        $view->setVar('distDir', sprintf("%s/dist/", base_url()));
+        $this->view->setVar('content', sprintf("/partials/%s/%s", $controller, $function));
+        $this->view->setVar('navbar', sprintf("/master-pages/%s/navbar", $controller));
+        $this->view->setVar('distDir', sprintf("%s/dist/", base_url()));
 
         return view(sprintf("/master-pages/%s/layout", $controller));
     }

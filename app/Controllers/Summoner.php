@@ -5,15 +5,11 @@ namespace App\Controllers;
 use App\Libraries\Curly;
 use App\Helpers\Constants;
 use App\Models\DbModel;
+use phpDocumentor\Reflection\Types\Parent_;
 
 class Summoner extends BaseController
 {
     const className = "Summoner";
-
-    /**
-     * @var Curly $curly
-     */
-    private $curly;
 
     /**
      * @var string
@@ -26,28 +22,42 @@ class Summoner extends BaseController
     private $token;
 
     /**
-     * @var DbModel
+     * @var array
      */
-    private $dbModel;
+    protected $data;
 
+    /**
+     * @var \CodeIgniter\View\View
+     */
+    protected $view;
+
+    /**
+     * @var $curly Curly
+     */
+    protected $curly;
+
+    /**
+     * @var $dbModel DbModel
+     */
+    protected $dbModel;
+
+    /**
+     * Summoner constructor.
+     */
     public function __construct() {
-        try {
-            //$this->curly = new Curly();
-            //$this->dbModel = new DbModel();
-            //$this->setToken();
-        }catch (\Exception $e) {
-            echo $e->getMessage();
-            exit;
-        }
-    }
+        $this->view = \Config\Services::renderer();
+        $this->curly = new \App\Libraries\Curly();
+        $this->dbModel = new DbModel();
 
+        $this->setToken();
+    }
 
     /**
      * @return string
      */
     public function index()
     {
-        //$this->view->setVar('allowedServers', $this->dbModel->getServerList());
+        $this->view->setVar('allowedServers', $this->dbModel->getServerList());
         return parent::render(self::className,__FUNCTION__);
     }
 
