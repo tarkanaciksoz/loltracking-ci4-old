@@ -1,5 +1,10 @@
 <div class="container px-5">
-        <img src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sion_0.jpg" style="width: 100%; height: 70%;"/>
+    <img class="pageBanner card-img-top" src="http://lolg-cdn.porofessor.gg/img/d/champion-banners/14.jpg"/>
+    <div class="card">
+        <div class="card-body">
+
+        </div>
+    </div>
 </div>
 <!--<div class="card">
     <img class="card-img-top" src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sion_0.jpg" alt="Card image cap">
