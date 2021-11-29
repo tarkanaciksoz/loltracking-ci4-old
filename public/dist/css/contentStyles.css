@@ -11431,3 +11431,9 @@ video.bg-video {
     width: auto;
   }
 }
+
+.pageBanner {
+  background-repeat: none;
+  background-size: cover;
+  position: relative;
+}
