@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'https://loltracking.tarkanaciksoz.tech';
+    public $baseURL = BASE_URL;
 
     /**
      * --------------------------------------------------------------------------

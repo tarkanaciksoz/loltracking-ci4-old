@@ -2,7 +2,27 @@
     <img class="pageBanner card-img-top" src="http://lolg-cdn.porofessor.gg/img/d/champion-banners/14.jpg"/>
     <div class="card">
         <div class="card-body">
-
+            <div class="col-auto">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>
+                            <img class="profile-icon" src="http://ddragon.leagueoflegends.com/cdn/11.23.1/img/profileicon/588.png"/>
+                        </th>
+                        <th>
+                            <h3 class="align-text-top">Muckmeister</h3>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td colspan="2">
+                            <h3 class="align-text-top">123 level</h3>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div>
