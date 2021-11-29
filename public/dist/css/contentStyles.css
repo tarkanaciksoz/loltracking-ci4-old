@@ -11433,7 +11433,32 @@ video.bg-video {
 }
 
 .pageBanner {
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.profile-icon {
+  border-radius:50%;
+  border: teal;
+  width: 90px;
+  height: 90px;
+  margin-right: 250px;
+  padding-top: 5px;
+}
+
+.rank-icon {
+  margin-top: -40px;
+  height: 90px;
+  width: 90px;
+}
+
+.summoner-champ-icon {
+  height: 48px;
+  width: 48px;
+}
+
+.summoner-spell-icon {
+  height: 16px;
+  width: 16px;
 }
