@@ -40,4 +40,3 @@ define('MASTER_DB_HOST', getenv('MASTER_DB_HOST'));
 define('MASTER_DB_NAME', getenv('MASTER_DB_NAME'));
 define('MASTER_DB_USER', getenv('MASTER_DB_USER'));
 define('MASTER_DB_PASS', getenv('MASTER_DB_PASS'));
-define('MYSQLI_STORE_RESULT', 0);
