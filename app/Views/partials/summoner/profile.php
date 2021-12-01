@@ -1,5 +1,6 @@
 <div class="container px-5">
-    <img class="pageBanner card-img-top" src="http://lolg-cdn.porofessor.gg/img/d/champion-banners/14.jpg"/>
+    <!--<img class="pageBanner" src=""/>-->
+    <div class="pageBanner"></div>
     <div class="card">
         <div class="container">
             <div class="row">
