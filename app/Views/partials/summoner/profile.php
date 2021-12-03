@@ -21,13 +21,13 @@
                         Ranked solo duo
                     </div>
                     <div class="row">
-                        <div class="col-4 text-center">
+                        <div class="col-4 text-end">
                             win
                         </div>
                         <div class="col-4 text-center m-auto">
                             <img src="https://loltracking.tarkanaciksoz.tech/dist/assets/img/Emblem_Platinum.png" style="width: 70px; height: 80px;">
                         </div>
-                        <div class="col-4 text-center">
+                        <div class="col-4 text-start">
                             lose
                         </div>
                     </div>
@@ -46,13 +46,13 @@
                         Ranked Flex mlex
                     </div>
                     <div class="row">
-                        <div class="col-4 text-center">
+                        <div class="col-4 text-end">
                             win
                         </div>
                         <div class="col-4 text-center m-auto">
                             <img src="https://loltracking.tarkanaciksoz.tech/dist/assets/img/Emblem_Platinum.png" style="width: 70px; height: 80px;">
                         </div>
-                        <div class="col-4 text-center">
+                        <div class="col-4 text-start">
                             lose
                         </div>
                     </div>
