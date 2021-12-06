@@ -1,3 +1,4 @@
+# In progress.
 # loltracking -> League Of Legends Tracking Application
 
 ## What is loltracking?
