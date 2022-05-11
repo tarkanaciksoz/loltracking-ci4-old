@@ -49,7 +49,7 @@ class Summoner extends BaseController
         $this->curly = new \App\Libraries\Curly();
         $this->dbModel = new DbModel();
 
-        $this->setToken();
+        $this->token = $this->createAndGetToken();
     }
 
     /**
@@ -76,11 +76,15 @@ class Summoner extends BaseController
         );
 
         $response = $this->curly->methodHandler("get", $url, json_encode($bodyArray), $this->getExtraHeaders());
-        $this->setToken();
-
+        echo "<pre>";
+        var_dump($response);
+        exit;
         $response->responseData = json_decode($response->responseData);
         if($response->responseCode == Constants::SUCCESS_CODE && $response->responseData->Success) {
             $data = $response->responseData->Data;
+            echo "<pre>";
+            var_dump($data);
+            exit;
             //$matchIdList = $this->getMatchHistoryIdList($data->puuid);
             //$this->data["matchHistory"] = $matchHistory = $this->getMatchHistory($matchIdList);
         }
@@ -146,5 +150,9 @@ class Summoner extends BaseController
 
     public function setToken() {
         $this->token = $this->dbModel->getToken();
+    }
+
+    private function createAndGetToken() {
+        return $this->dbModel->createToken();
     }
 }

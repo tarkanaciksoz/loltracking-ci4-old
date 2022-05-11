@@ -25,7 +25,7 @@
                             win
                         </div>
                         <div class="col-4 text-center m-auto">
-                            <img src="https://loltracking.tarkanaciksoz.tech/dist/assets/img/Emblem_Platinum.png" style="width: 70px; height: 80px;">
+                            <img src="http://localhost:8080/dist/assets/img/Emblem_Platinum.png" style="width: 70px; height: 80px;">
                         </div>
                         <div class="col-4 text-start">
                             lose
@@ -50,7 +50,7 @@
                             win
                         </div>
                         <div class="col-4 text-center m-auto">
-                            <img src="https://loltracking.tarkanaciksoz.tech/dist/assets/img/Emblem_Platinum.png" style="width: 70px; height: 80px;">
+                            <img src="http://localhost:8080/dist/assets/img/Emblem_Platinum.png" style="width: 70px; height: 80px;">
                         </div>
                         <div class="col-4 text-start">
                             lose

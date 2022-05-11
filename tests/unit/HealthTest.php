@@ -33,7 +33,8 @@ final class HealthTest extends \CodeIgniter\Test\CIUnitTestCase
             // BaseURL in .env is a valid URL?
             // phpunit.xml.dist sets app.baseURL in $_SERVER
             // So if you set app.baseURL in .env, it takes precedence
-            $config = new Config\App();
+            $appPath = sprintf("Config\%s\App()", ENVIRONMENT);
+            $config = new $appPath;
             $this->assertTrue(
                 $validation->check($config->baseURL, 'valid_url'),
                 'baseURL "' . $config->baseURL . '" in .env is not valid URL'
