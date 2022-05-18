@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/CodeIgniter4.git",
-                "reference": "1f566fb041fd726d7d6f80f9a67e389193524914"
+                "reference": "caf0376ac036e352a3c2ba9eba4cef52c61a0baa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/CodeIgniter4/zipball/1f566fb041fd726d7d6f80f9a67e389193524914",
-                "reference": "1f566fb041fd726d7d6f80f9a67e389193524914",
+                "url": "https://api.github.com/repos/codeigniter4/CodeIgniter4/zipball/caf0376ac036e352a3c2ba9eba4cef52c61a0baa",
+                "reference": "caf0376ac036e352a3c2ba9eba4cef52c61a0baa",
                 "shasum": ""
             },
             "require": {
@@ -100,7 +100,7 @@
                 "slack": "https://codeigniterchat.slack.com",
                 "issues": "https://github.com/codeigniter4/CodeIgniter4/issues"
             },
-            "time": "2022-05-12T00:23:48+00:00"
+            "time": "2022-05-18T07:14:58+00:00"
         },
         {
             "name": "kint-php/kint",
