@@ -76,15 +76,13 @@ class Summoner extends BaseController
         );
 
         $response = $this->curly->methodHandler("get", $url, json_encode($bodyArray), $this->getExtraHeaders());
-        echo "<pre>";
-        var_dump($response);
-        exit;
+        
+        
         $response->responseData = json_decode($response->responseData);
         if($response->responseCode == Constants::SUCCESS_CODE && $response->responseData->Success) {
             $data = $response->responseData->Data;
-            echo "<pre>";
-            var_dump($data);
-            exit;
+            
+            
             //$matchIdList = $this->getMatchHistoryIdList($data->puuid);
             //$this->data["matchHistory"] = $matchHistory = $this->getMatchHistory($matchIdList);
         }
