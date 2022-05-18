@@ -3,3 +3,4 @@ vendor/
 spark
 writable/debugbar/
 writable/logs/
+public/index.php
