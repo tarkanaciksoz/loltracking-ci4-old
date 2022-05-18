@@ -1,6 +1,6 @@
-./.env
-./vendor/
+.env
+vendor/
 ./spark
-./writable/debugbar/
-./writable/logs/
+writable/debugbar/
+writable/logs/
 ./public/index.php
