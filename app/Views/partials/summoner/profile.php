@@ -18,12 +18,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <div class="row rank-icon align-top float-left">
-                        <img class="" src="http://localhost:8080/dist/assets/img/Emblem_Platinum.png">
-                    </div>
-                </div>  
+                    <img class="rank-icon" style="float: left;" src="http://localhost:8080/dist/assets/img/Emblem_Platinum.png">
                 <div class="col-6">
-                     <img class="rank-icon" src="http://localhost:8080/dist/assets/img/Emblem_Platinum.png">
+                    <img class="rank-icon" src="http://localhost:8080/dist/assets/img/Emblem_Platinum.png">
                 </div>                   
             </div>
         </div>
