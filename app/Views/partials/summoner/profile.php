@@ -19,6 +19,7 @@
             <div class="row">
                 <div class="col-6">
                     <img class="rank-icon" style="float: left;" src="http://localhost:8080/dist/assets/img/Emblem_Platinum.png">
+                </div>
                 <div class="col-6">
                     <img class="rank-icon" src="http://localhost:8080/dist/assets/img/Emblem_Platinum.png">
                 </div>                   
