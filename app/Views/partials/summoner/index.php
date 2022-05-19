@@ -16,7 +16,7 @@
                         <ul class="dropdown-menu dropdown-menu-end" id="serverList">
                             <?php if(isset($allowedServers)) {
                                 foreach($allowedServers as $server) { ?>
-                                    <li><a class="dropdown-item" href="#"><?= strtoupper($server); ?></a></li>
+                                    <li><a class="dropdown-item" ><?= strtoupper($server); ?></a></li>
                                 <?php } ?>
                             <?php } ?>
                         </ul>
