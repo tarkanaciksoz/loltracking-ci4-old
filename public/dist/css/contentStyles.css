@@ -4902,31 +4902,21 @@ video.bg-video {
   background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rengar_0.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 35%;
-  position: relative;
-  object-fit: none;
-  object-position: top;
 }
 
 .profile-icon {
   background-image: url("http://ddragon.leagueoflegends.com/cdn/11.23.1/img/profileicon/542.png");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  object-fit: none;
-  object-position: top;
   border-radius: 30%;
-  border: teal;
   width: 70px;
   height: 70px;
-  margin-left: 25px;
-  top: 52%;
-  transform: translateY(-50%);
 }
 
 .rank-icon {
   width: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .summoner-champ-icon {
@@ -4939,42 +4929,17 @@ video.bg-video {
   width: 16px;
 }
 .summoner-name {
-  border-radius: 50%;
-  border: teal;
-  height: 70px;
-  margin-left: 105px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  flex: 0 0 auto;
-  width: 100%;
   color: white;
   font-size: 30px;
-
 }
 .flagicon {
   width: 40px;
   height: 25px;
-  border: teal;
-  margin-left: 105px;
-  position: absolute;
-  top: 60%;
-  transform: translateY(-50%);
-  flex: 0 0 auto;
 }
 
 .flagname {
-  border-radius: 50%;
-  border: teal;
-  height: 70px;
-  margin-left: 155px;
-  position: absolute;
-  top: 68%;
-  transform: translateY(-60%);
-  flex: 0 0 auto;
-  width: 100%;
   color: #b8b8b8;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .summoner-level-back {
