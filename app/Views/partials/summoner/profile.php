@@ -1,6 +1,7 @@
-<div class="pageBanner container px-5 centerize blur">
-    <div class="row">
-        <div style="z-index:-1;" class="col-2" id="profile-icon-area">
+<div class="container pageBanner px-5 blur centerize" id="banner"></div>
+<div class="container px-5 centerize asd">
+    <div class="row padding-top-150">
+        <div class="col-2" id="profile-icon-area">
             <div class="row">
                 <div class="profile-icon-div">
                     <img class="profile-icon" src="http://ddragon.leagueoflegends.com/cdn/11.23.1/img/profileicon/542.png"/>
@@ -170,14 +171,15 @@
         $('#profile-icon-area').attr("class", "profile-icon-area")
         $('#rank-icon-soloq').attr("class", "rank-icon-div")
         $('#rank-icon-flex').attr("class", "rank-icon-div")
+        $('#rank-icon-flex').attr("class", "centerize")
 
-        $( window ).resize(function() { 
+        /*$( window ).resize(function() { 
             var width = $(window).width()
             if(width > 768) {
                 $('.sna-col').each(function(element){
                     element.style.height = "100%"
                 })
             }
-        })
+        })*/
     });
 </script>

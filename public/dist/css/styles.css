@@ -11396,6 +11396,7 @@ header.masthead .bg-circle-4 {
   object-position: top;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  height: 250px;
 }
 
 .summoner-level-back {
@@ -11555,5 +11556,17 @@ header.masthead .bg-circle-4 {
   }
 }
 .blur {
-  filter: blur(5px) brightness(0.5);
+  filter: blur(4.5px);
+}
+
+.asd {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.padding-top-150 {
+  padding-top: 150px;
 }
