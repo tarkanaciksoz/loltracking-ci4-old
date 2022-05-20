@@ -11394,6 +11394,8 @@ header.masthead .bg-circle-4 {
   position: relative;
   object-fit: none;
   object-position: top;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .summoner-level-back {
@@ -11417,7 +11419,8 @@ header.masthead .bg-circle-4 {
 
 .summoner-level {
   color: white;
-  padding-left: 20px;
+  margin-top: -20px;
+  font-size: 16px;
 }
 
 .profile-icon-old {
@@ -11434,7 +11437,7 @@ header.masthead .bg-circle-4 {
 }
 
 .profile-icon {
-  width: 100px;
+  width: 85px;
   height: auto;
   border-radius: 30%;
   border: teal;
@@ -11500,8 +11503,8 @@ header.masthead .bg-circle-4 {
 }
 
 .main-content {
-  background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(138,161,227,1) 0%);
+  border-radius: 10px;  
 }
 .centerize {
   padding-right: var(--bs-gutter-x, 0.75rem);
@@ -11550,4 +11553,7 @@ header.masthead .bg-circle-4 {
     max-height: 28px;
     height: 28px;
   }
+}
+.blur {
+  filter: blur(5px) brightness(0.5);
 }

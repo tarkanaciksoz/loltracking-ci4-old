@@ -1,13 +1,13 @@
-<div class="pageBanner container px-5 centerize">
+<div class="pageBanner container px-5 centerize blur">
     <div class="row">
-        <div class="col-2" id="profile-icon-area">
+        <div style="z-index:-1;" class="col-2" id="profile-icon-area">
             <div class="row">
                 <div class="profile-icon-div">
                     <img class="profile-icon" src="http://ddragon.leagueoflegends.com/cdn/11.23.1/img/profileicon/542.png"/>
                 </div>
             </div>
             <div class="row lvl-area">
-                <h5 class="summoner-level text-center">460</h5>
+                <h5 class="summoner-level text-center">031 Level</h5>
             </div>
         </div>
         <div class="col-10 summoner-name-area">
