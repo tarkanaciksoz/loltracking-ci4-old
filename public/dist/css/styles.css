@@ -11387,12 +11387,6 @@ header.masthead .bg-circle-4 {
   }
 }
 
-.rank-icon {
-  max-width: 60%;
-  height: auto;
-  min-width: 20%;
-}
-
 .pageBanner {
   background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rengar_0.jpg");
   background-repeat: no-repeat;
@@ -11479,12 +11473,30 @@ header.masthead .bg-circle-4 {
   font-size: 32px;
 }
 
+.rank-icon-image {
+  max-width: 110px;
+  min-width: 75px;
+}
+.rank-info-title-col {
+  min-width: 100px;
+  width: 100px;
+  max-width: 100px;
+}
+.rank-info-col {
+  min-width: 135px;
+  width: 135px;
+  max-width: 135px;
+}
 .rank-info-card {
   border: solid 1px black;
 }
 
 .rank-info-image {
   border-right: solid 1px black;
+}
+
+.rank-icon-div {
+  max-width: 125px;
 }
 
 .main-content {

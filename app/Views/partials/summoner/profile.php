@@ -35,48 +35,92 @@
         <div class="row gx-5 align-items-center">
             <div class="col-lg-6 order-lg-2">
                 <div class="row">
-                    <div class="col-lg-6 order-lg-2">
-                        <img class="rank-icon" src="http://localhost:8080/dist/assets/img/Emblem_Platinum.png" alt="..." />
+                    <div class="col-lg-6 order-lg-2" id="rank-icon-soloq">
+                        <img class="rank-icon-image" src="http://localhost:8080/dist/assets/img/Emblem_Platinum.png" alt="..." />
                     </div>
                     <div class="col-lg-6 order-lg-2">
-                        <div class="row h1">
-                            Solo/Queue
-                        </div>
-                        <div class="row h2">
-                            Platinum I
-                        </div> 
-                        <div class="row h3">
-                            LP: 60
+                        <div class="row h3 text-center">
+                            <div class="col-12">
+                                Ranked SoloQ
+                            </div>
                         </div>
                         <div class="row h4">
-                            Wins: 231 
+                            <div class="col-5">
+                                Rank :
+                            </div>
+                            <div class="col-7">
+                                Platinum I
+                            </div>
                         </div> 
                         <div class="row h4">
-                            Losses: 152
+                            <div class="col-5">
+                                LP:
+                            </div>
+                            <div class="col-7">
+                                86
+                            </div>
+                        </div>
+                        <div class="row h4">
+                            <div class="col-5">
+                                Wins:
+                            </div>
+                            <div class="col-7">
+                                241
+                            </div>
+                        </div> 
+                        <div class="row h4">
+                            <div class="col-5">
+                                Losses: 
+                            </div>
+                            <div class="col-7">
+                                239
+                            </div>
                         </div>  
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 order-lg-2">
                 <div class="row">
-                    <div class="col-lg-6 order-lg-2">
-                        <img class="rank-icon" src="http://localhost:8080/dist/assets/img/Emblem_Platinum.png" alt="..." />
+                    <div class="col-lg-6 order-lg-2" id="rank-icon-flex">
+                        <img class="rank-icon-image" src="http://localhost:8080/dist/assets/img/Emblem_Platinum.png" alt="..." />
                     </div>
                     <div class="col-lg-6 order-lg-2">
-                        <div class="row h1">
-                            Ranked Flex
-                        </div>
-                        <div class="row h2">
-                            Platinum I
-                        </div> 
-                        <div class="row h3">
-                            LP: 40
+                        <div class="row h3 text-center">
+                            <div class="col-12">
+                                Ranked Flex
+                            </div>
                         </div>
                         <div class="row h4">
-                            Wins: 133 
+                            <div class="col-5">
+                                Rank :
+                            </div>
+                            <div class="col-7">
+                                Platinum II
+                            </div>
                         </div> 
                         <div class="row h4">
-                            Losses: 93
+                            <div class="col-5">
+                                LP:
+                            </div>
+                            <div class="col-7">
+                                43
+                            </div>
+                        </div>
+                        <div class="row h4">
+                            <div class="col-5">
+                                Wins:
+                            </div>
+                            <div class="col-7">
+                                151
+                            </div>
+                        </div> 
+                        <div class="row h4">
+                            <div class="col-5">
+                                Losses: 
+                            </div>
+                            <div class="col-7">
+                                152
+                            </div>
                         </div>  
                     </div>
                 </div>
@@ -124,6 +168,8 @@
 <script type="text/javascript">
     $(document).ready(function() {
         $('#profile-icon-area').attr("class", "profile-icon-area")
+        $('#rank-icon-soloq').attr("class", "rank-icon-div")
+        $('#rank-icon-flex').attr("class", "rank-icon-div")
 
         $( window ).resize(function() { 
             var width = $(window).width()
