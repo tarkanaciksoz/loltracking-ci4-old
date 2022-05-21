@@ -1,4 +1,5 @@
-<div class="container pageBanner px-5 blur centerize" id="banner"></div> <!--TODO : backround image değişken olmalı-->
+<!-- BURAK - TODO: background img tam ortalı olacak cut atılacak -->
+<div class="container pageBanner px-5 blur centerize" id="banner"></div> <!-- TARKAN - TODO : backround image değişken olmalı-->
 <div class="container px-5 centerize asd"> 
     <div class="row padding-top-150">
         <div class="col-2" id="profile-icon-area">
@@ -17,7 +18,7 @@
                 <div class="col-12 sna-col"></div>
                 <div class="col-12 sn-col">
                     <h2 class="summoner-name">
-                        Muckmeister <!--TODO : boşluk fix edilecek-->
+                        Muckmeister <!-- TARKAN - TODO : boşluk fix edilecek-->
                     </h2>
                 </div>
                 <div class="col-12 sn-col">
@@ -36,32 +37,98 @@
         <div class="row gx-5 align-items-center">
             <div class="col-lg-12 order-lg-2">
                 <div class="row">
-                    <div class="col-lg-5 order-lg-2 main-content main-content-blur" id="rank-icon-soloq">
+                    <div class="col-lg-5 order-lg-2 main-content main-content-blur"><!-- BURAK - TODO: main contentin yanına blur ortaya doğru olacak -->
                         <div class="row">
-                            <div class="col-4 text-start">asd</div>
-                            <div class="col-4 rankname text-center ">Solo/Queue</div>
-                            <div class="col-4 text-end">asddsfsdfdsfas</div>
+                            <div class="col-12">
+                                <div class="col-12 rankname text-center">
+                                    Solo/Queue
+                                </div>
+                            </div>
                         </div>
-                        <img class="rank-icon-image" src="http://localhost:8080/dist/assets/img/Emblem_Platinum.png" alt="..." />
                         <div class="row">
-                            <div class="col-4">asd</div>
-                            <div class="col-4">asdsa</div>
-                            <div class="col-4">asdas</div>
-                        </div>     
+                            <div class="col-3">
+                                <div class="col-12" style="height:65px; padding-left:0; padding-right:0;">
+                                    <div class="col-12" style="height:70px; padding-left:0; padding-right:0;"></div>
+                                    <div class="col-12 align-top text-center" style="height:55px; padding-left:0; padding-right:0;">
+                                        PLATINUM III
+                                    </div>
+                                    <div class="col-12 align-text-bottom text-center" style="height:55px; padding-left:0; padding-right:0;">
+                                        10 lp
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <img class="rank-icon-image" src="http://localhost:8080/dist/assets/img/Emblem_Platinum.png" alt="..." />
+                            </div>
+                            <div class="col-3">
+                                <div class="col-12"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="col-12 text-start">
+                                    sol alt
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="col-12 rankname text-center">
+                                    alt
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="col-12 text-end">
+                                    sağ alt
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-lg-1 order-lg-2" id="divider"></div>
-                    <div class="col-lg-5 order-lg-2 main-content main-content-blur" id="rank-icon-soloq">
+                    <div class="col-lg-5 order-lg-2 main-content main-content-blur">
                         <div class="row">
-                            <div class="col-4 text-start">asd</div>
-                            <div class="col-4 rankname text-center ">Ranked Flex</div>
-                            <div class="col-4 text-end">asddsfsdfdsfas</div>
+                            <div class="col-3">
+                                <div class="col-12 text-start">
+                                    sol üst
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="col-12 rankname text-center">
+                                    Ranked Flex
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="col-12 text-end">
+                                    sağ
+                                </div>
+                            </div>
                         </div>
-                        <img class="rank-icon-image" src="http://localhost:8080/dist/assets/img/Emblem_Platinum.png" alt="..." />
                         <div class="row">
-                            <div class="col-4">asd</div>
-                            <div class="col-4">asdsa</div>
-                            <div class="col-4">asdas</div>
-                        </div>     
+                            <div class="col-3">
+                                <div class="col-12"></div>
+                            </div>
+                            <div class="col-6">
+                                <img class="rank-icon-image" src="http://localhost:8080/dist/assets/img/Emblem_Platinum.png" alt="..." />
+                            </div>
+                            <div class="col-3">
+                                <div class="col-12"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="col-12 text-start">
+                                    sol alt
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="col-12 rankname text-center">
+                                    alt
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="col-12 text-end">
+                                    sağ alt
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>     
             </div>
