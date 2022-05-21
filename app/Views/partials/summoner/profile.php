@@ -1,5 +1,5 @@
-<div class="container pageBanner px-5 blur centerize" id="banner"></div>
-<div class="container px-5 centerize asd">
+<div class="container pageBanner px-5 blur centerize" id="banner"></div> <!--TODO : backround image değişken olmalı-->
+<div class="container px-5 centerize asd"> 
     <div class="row padding-top-150">
         <div class="col-2" id="profile-icon-area">
             <div class="row">
@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="row lvl-area">
-                <h5 class="summoner-level text-center">031 Level</h5>
+                <div class="summoner-level text-center">031 Level</div>
             </div>
         </div>
         <div class="col-10 summoner-name-area">
@@ -17,7 +17,7 @@
                 <div class="col-12 sna-col"></div>
                 <div class="col-12 sn-col">
                     <h2 class="summoner-name">
-                        Muckmeister
+                        Muckmeister <!--TODO : boşluk fix edilecek-->
                     </h2>
                 </div>
                 <div class="col-12 sn-col">
@@ -32,99 +32,38 @@
     </div>
 </div>
 <section id="scroll">
-    <div class="container px-5 centerize main-content">
+    <div class="container centerize">
         <div class="row gx-5 align-items-center">
-            <div class="col-lg-6 order-lg-2">
+            <div class="col-lg-12 order-lg-2">
                 <div class="row">
-                    <div class="col-lg-6 order-lg-2" id="rank-icon-soloq">
+                    <div class="col-lg-5 order-lg-2 main-content main-content-blur" id="rank-icon-soloq">
+                        <div class="row">
+                            <div class="col-4 text-start">asd</div>
+                            <div class="col-4 rankname text-center ">Solo/Queue</div>
+                            <div class="col-4 text-end">asddsfsdfdsfas</div>
+                        </div>
                         <img class="rank-icon-image" src="http://localhost:8080/dist/assets/img/Emblem_Platinum.png" alt="..." />
+                        <div class="row">
+                            <div class="col-4">asd</div>
+                            <div class="col-4">asdsa</div>
+                            <div class="col-4">asdas</div>
+                        </div>     
                     </div>
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="row h3 text-center">
-                            <div class="col-12">
-                                Ranked SoloQ
-                            </div>
+                    <div class="col-lg-1 order-lg-2" id="divider"></div>
+                    <div class="col-lg-5 order-lg-2 main-content main-content-blur" id="rank-icon-soloq">
+                        <div class="row">
+                            <div class="col-4 text-start">asd</div>
+                            <div class="col-4 rankname text-center ">Ranked Flex</div>
+                            <div class="col-4 text-end">asddsfsdfdsfas</div>
                         </div>
-                        <div class="row h4">
-                            <div class="col-5">
-                                Rank :
-                            </div>
-                            <div class="col-7">
-                                Platinum I
-                            </div>
-                        </div> 
-                        <div class="row h4">
-                            <div class="col-5">
-                                LP:
-                            </div>
-                            <div class="col-7">
-                                86
-                            </div>
-                        </div>
-                        <div class="row h4">
-                            <div class="col-5">
-                                Wins:
-                            </div>
-                            <div class="col-7">
-                                241
-                            </div>
-                        </div> 
-                        <div class="row h4">
-                            <div class="col-5">
-                                Losses: 
-                            </div>
-                            <div class="col-7">
-                                239
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 order-lg-2">
-                <div class="row">
-                    <div class="col-lg-6 order-lg-2" id="rank-icon-flex">
                         <img class="rank-icon-image" src="http://localhost:8080/dist/assets/img/Emblem_Platinum.png" alt="..." />
+                        <div class="row">
+                            <div class="col-4">asd</div>
+                            <div class="col-4">asdsa</div>
+                            <div class="col-4">asdas</div>
+                        </div>     
                     </div>
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="row h3 text-center">
-                            <div class="col-12">
-                                Ranked Flex
-                            </div>
-                        </div>
-                        <div class="row h4">
-                            <div class="col-5">
-                                Rank :
-                            </div>
-                            <div class="col-7">
-                                Platinum II
-                            </div>
-                        </div> 
-                        <div class="row h4">
-                            <div class="col-5">
-                                LP:
-                            </div>
-                            <div class="col-7">
-                                43
-                            </div>
-                        </div>
-                        <div class="row h4">
-                            <div class="col-5">
-                                Wins:
-                            </div>
-                            <div class="col-7">
-                                151
-                            </div>
-                        </div> 
-                        <div class="row h4">
-                            <div class="col-5">
-                                Losses: 
-                            </div>
-                            <div class="col-7">
-                                152
-                            </div>
-                        </div>  
-                    </div>
-                </div>
+                </div>     
             </div>
         </div>
     </div>
@@ -169,9 +108,12 @@
 <script type="text/javascript">
     $(document).ready(function() {
         $('#profile-icon-area').attr("class", "profile-icon-area")
-        $('#rank-icon-soloq').attr("class", "rank-icon-div")
-        $('#rank-icon-flex').attr("class", "rank-icon-div")
-        $('#rank-icon-flex').attr("class", "centerize")
+        $('#divider').css("max-width", "18px")
+        $('#divider').css("min-width", "18px")
+        $('#divider').css("width", "18px")
+        $('#divider').css("padding-right", "0")
+        $('#divider').css("padding-left", "0")
+
 
         /*$( window ).resize(function() { 
             var width = $(window).width()
