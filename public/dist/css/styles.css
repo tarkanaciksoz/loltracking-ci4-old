@@ -87,7 +87,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background: url("https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt1defebf46b9f8739/5e21837f2d54964f9f397558/News---Esports.jpg") #2a5555 no-repeat center center scroll;
+  background: url("http://localhost:8080/dist/assets/img/loltracnew.jpeg") #2a5555 no-repeat center center scroll;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11506,8 +11506,8 @@ header.masthead .bg-circle-4 {
 }
 
 .main-content {
-  background: rgb(34,193,195);
-  background: linear-gradient(0deg, rgba(34,193,195,0.5889706224286589) 0%, rgba(193,165,165,0.6113795860140931) 100%);
+  background: rgb(193,218,218);
+  background: radial-gradient(circle, rgba(193,218,218,0.7945772058823529) 2%, rgba(156,168,167,0.6965379901960784) 100%);
   border-radius: 20px;
   min-width: 560px;
 }

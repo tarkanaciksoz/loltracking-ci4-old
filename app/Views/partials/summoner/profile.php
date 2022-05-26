@@ -1,4 +1,3 @@
-<!-- BURAK - TODO: background img tam ortalı olacak cut atılacak -->
 <div class="container pageBanner px-5 blur centerize" id="banner"></div> <!-- TARKAN - TODO : backround image değişken olmalı-->
 <div class="container px-5 centerize asd"> 
     <div class="row padding-top-150">
@@ -37,7 +36,7 @@
         <div class="row gx-5 align-items-center">
             <div class="col-lg-12 order-lg-2">
                 <div class="row">
-                    <div class="col-lg-5 order-lg-2 main-content main-content-blur"><!-- BURAK - TODO: main contentin yanına blur ortaya doğru olacak -->
+                    <div class="col-lg-5 order-lg-2 main-content main-content-blur">
                         <div class="row">
                             <div class="col-12">
                                 <div class="col-12 rankname text-center">
@@ -53,7 +52,7 @@
                                         PLATINUM III
                                     </div>
                                     <div class="col-12 align-text-bottom text-center" style="height:55px; padding-left:0; padding-right:0;">
-                                        10 lp
+                                        10 LP
                                     </div>
                                 </div>
                             </div>
