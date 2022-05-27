@@ -11391,7 +11391,6 @@ header.masthead .bg-circle-4 {
   background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rengar_0.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
   object-fit: none;
   object-position: top;
   border-bottom-left-radius: 10px;
@@ -11475,13 +11474,12 @@ header.masthead .bg-circle-4 {
 }
 
 .rank-icon-image {
-  max-width: 180px;
+  max-width: 160px;
   min-width: 75px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 5px;
   margin-bottom: 20px;
+
 }
 .rank-info-title-col {
   min-width: 100px;
@@ -11585,7 +11583,7 @@ header.masthead .bg-circle-4 {
 
 .rankname {
   background-color: #f3ec78;
-  background-image: linear-gradient( #1e81b0, #21130d);
+  background-image: linear-gradient(#1e81b0, #21130d);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -11593,4 +11591,89 @@ header.masthead .bg-circle-4 {
   -moz-text-fill-color: transparent;
   font-size: 25px;
   font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.rankname2 {
+  background-color: #f3ec78;
+  background-image: linear-gradient(#333757, #f73131);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  font-size: 27px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.divborders {
+  display: inline-block;
+}
+.divborders:hover{
+  animation: pulsate 1s
+  ease-in-out;
+}
+@keyframes pulsate {
+  0%{
+    box-shadow: 
+    0 0 15px #c0c0c0,
+    0 0 30px #3f3f3f;
+  }
+}
+.ranknametext {
+  background-color: #f3ec78;
+  background-image: linear-gradient(#333757, #f73131);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  font-size: 22px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  opacity: 1;
+  color: #ebffff;
+  text-shadow: 0 0 0.1em #000080;
+}
+
+.ranknamelp {
+  background-color: #f3ec78;
+  background-image: linear-gradient(#333757, #f73131);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  font-size: 23px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  opacity: 1;
+  color: #ebffff;
+  text-shadow: 0 0 0.1em #000080;
+}
+.ranknamewl {
+  background-color: #f3ec78;
+  background-image: linear-gradient(#333757, #f73131);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  font-size: 22px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  opacity: 1;
+  color: #ebffff;
+  text-shadow: 0 0 0.1em #000080;
+}
+.ranknamewr {
+  background-color: #f3ec78;
+  background-image: linear-gradient(#333757, #f73131);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  font-size: 17px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  opacity: 1;
+  color: #ebffff;
+  text-shadow: 0 0 0.1em #000080;
+  margin-top: 4px;
 }

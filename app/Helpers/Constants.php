@@ -14,5 +14,5 @@ Class Constants {
     const STATUS_ACTIVE = 1;
     const STATUS_PASSIVE = 0;
 
-    const ASSET_VERSION = 0.2;
+    const ASSET_VERSION = 0.3;
 }
